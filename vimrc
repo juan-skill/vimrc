@@ -26,7 +26,7 @@ if &t_Co > 2
 	" Nord
 	let g:nord_cursor_line_number_background = 1
 	let g:nord_uniform_diff_background = 1
-	colorscheme nord
+	colorscheme slate
 
 	" Syntax often gets messed up on files with multiple languages
 	noremap <F12> <Esc>:syntax sync fromstart<CR>
