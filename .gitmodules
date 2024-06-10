@@ -76,3 +76,6 @@
 [submodule "pack/theme/start/nord-vim"]
 	path = pack/theme/start/nord-vim
 	url = https://github.com/arcticicestudio/nord-vim
+[submodule "pack/lsp/start/copilot"]
+	path = pack/lsp/start/copilot
+	url = https://github.com/github/copilot.vim
