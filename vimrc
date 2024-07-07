@@ -58,3 +58,17 @@ nmap <C-P> :bprev<CR>
 let mapleader=','
 
 tnoremap <Esc><Esc> <C-\><C-n>
+
+" Multiple toggles terminal
+
+" Mapper F12 to toggle terminal
+nnoremap <silent> <F10> :FloatermToggle term1<CR>
+tnoremap <silent> <F10> <C-\><C-n>:FloatermToggle term1<CR>
+
+" Optional configurations to setup size of the floating terminal
+let g:floaterm_width=0.8
+let g:floaterm_height=0.8
+let g:floaterm_autoclose=1
+
+" auto close floating terminal when the process is finished
+let g:floaterm_autoclose=2
